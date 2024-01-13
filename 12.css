@@ -1,0 +1,22 @@
+// esto es lo que te decia del supports para safari
+.home {
+    background: #001F3F;
+    background: linear-gradient(to right bottom, #001F3F, rgb(0 63 127 / 46%)), url(./14.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+}
+
+/* Si el navegador no admite WebP, utiliza la versión PNG */
+@supports not (background: url(./14.webp)) {
+    .home {
+        background: #001F3F;
+        background: linear-gradient(to right bottom, #001F3F, rgb(0 63 127 / 46%)), url(./14.png);
+    }
+}
