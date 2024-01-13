@@ -1,9 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content='all, index, follow' name='robots'/>  //Esto es para que se indexe todo el contenido de la web
+    
+<!--Meta Descripcion para Google Search Console ,Yandex y Bing-->
+<meta name="google-site-verification" content="CODIGO_DE_VERIFICACION"/>
+<meta name="msvalidate.01" content="CODIGO_DE_VERIFICACION BING" />
+<meta name="yandex-verification" content="CODIGO_DE_VERIFICACION YANDEX" />
+
+<!-- Meta Custom -->
+<meta content='aca podes poner tu nombre ' name='Author'/>
+<meta content='La descripcion de la web' name='description'/>
+<title>El titulo d ela web</title>
+<meta content='Esto no sirve mucho pero lo podes usar aca van las keywords separadas por ,' name='keywords'/>
+<meta content='es' http-equiv='content-language'/>
+<meta content='global' name='distribution'/>
+<meta content='Todos' name='geo.country'/>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"> 
+    
+<!-- Metas para Facebook -->
+<meta property="og:title" content="Aca el titulo">
+<meta property="og:description" content="Aca la descripcion">
+<meta property="og:image" content="aca la imagen de #1200 x 630">
+<meta property="og:url" content="https://tu web">
+<meta property="og:type" content="website">
+    
+<!-- Metas para X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@tutwitter">
+<meta name="twitter:title" content="Aca el titulo">
+<meta name="twitter:description" content="Aca la descripcion">
+<meta name="twitter:image" content="aca la imagen de #1200 x 675">
+
+
+<!-- Metadatos estructurados enfocados en la tematica curso -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Product",
+        "name": "Curso de Marketing 1",
+        "description": "Descripcion del Curso 1",
+        "brand": {
+          "@type": "Organization",
+          "name": "tucaminofit"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "Precio del Curso 1",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "URL_DEL_CURSO_1"
+        },
+        "url": "URL_DEL_CURSO_1"
+      }
+    ]
+  }
+</script>
+    
 </head>
 <body>
     
